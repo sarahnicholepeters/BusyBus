@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
+
+@font-face {
+  font-family: "CerealBlack";
+  src: url("webfont.eot"); /* IE9 Compat Modes */
+  src: url("./Font_Cereal/AirbnbCereal-Black.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "CerealMedium";
+  src: url("webfont.eot"); /* IE9 Compat Modes */
+  src: url("./Font_Cereal/AirbnbCereal-Medium.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "CerealLight";
+  src: url("webfont.eot"); /* IE9 Compat Modes */
+  src: url("./Font_Cereal/AirbnbCereal-Light.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "CerealBook";
+  src: url("webfont.eot"); /* IE9 Compat Modes */
+  src: url("./Font_Cereal/AirbnbCereal-Book.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "IBM Plex Sans", sans-serif; */
+  font-family: "CerealMedium", Fallback, sans-serif;
+}
+
+.route-header {
+  margin-bottom: 15px;
+  font-weight: bolder;
+  font-size: 28px;
+  font-family: "CerealMedium", Fallback, sans-serif;
+}
+
+.schedule-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.schedule-header {
+  width: 92%;
+  margin: 0 auto;
+  padding: 25px 15px;
+  max-width: 425px;
+  color: #333;
+}
+
+.schedule-header-title {
+  font-weight: bolder;
+  margin-bottom: 5px;
+  font-family: "CerealBlack", Fallback, sans-serif;
+}
+
+.schedule-header-subtitle {
+  font-family: "CerealLight", Fallback, sans-serif;
+  opacity: 0.7;
+}
+
+.schedule-route {
+  padding: 15px 20px;
+  color: white;
+  width: 92%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  max-width: 425px;
+  background: #ff9966; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff5e62,
+    #ff9966
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff5e62,
+    #ff9966
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* .eastbound {
+  background-color: #845ec2;
+}
+.northbound {
+  background-color: #d65db1;
+}
+
+.southbound {
+  background-color: #ff6f91;
+}
+.reroute {
+  background-color: #ff9671;
+}
+
+.out-of-service {
+  background-color: #ffc75f;
+} */
+
+.info-container {
+  display: inline-block;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "CerealBook", Fallback, sans-serif;
+}
+
+.info {
+  opacity: 0.65;
+  font-size: 13.5px;
+}
+
+.table-info {
+  display: inline;
+}
+
+.line-info {
+  margin-right: 12px;
+}
+
+.frequency-info {
+  float: right;
+}
+
+.info-container p {
+  margin-top: 5px;
+}
