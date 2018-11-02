@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "SF Pro Display", sans-serif;
 }
 
 .schedule-container {
@@ -13,7 +13,6 @@
 .status-bar {
   width: 100vw;
   height: 23px;
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -92,7 +91,6 @@
   display: inline;
   font-size: 17px;
   color: #3876da;
-  /* margin-bottom: 5px; */
 }
 
 .back-icon {
@@ -104,4 +102,77 @@
   display: inline;
   font-size: 17px;
   font-weight: bolder;
+}
+
+.route {
+  width: 100vw;
+  border-bottom: 1px solid #bcbcbe;
+  position: relative;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.route-number-container {
+  height: 73px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 53.38px;
+}
+
+.route-number {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.route-time {
+  color: dodgerblue;
+  font-weight: 400;
+}
+
+.route-arrival {
+  color: #918b8c;
+  font-weight: 400;
+}
+
+.route-line {
+  font-weight: 400;
+}
+
+.route-info-container {
+  width: calc(100% - 58.38px);
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.route-info-section {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.route-top-info {
+  font-size: 13px;
+  font-weight: 500;
+  align-items: flex-end;
+  padding-bottom: 2.5px;
+}
+.route-bottom-info {
+  font-size: 13px;
+  padding-top: 2.5px;
+}
+
+.route-info-header {
+  display: inline;
+}
+
+.reroute .route-time {
+  color: #eb4d3d;
+}
+
+.out-of-service .route-time {
+  color: #918b8c;
 }
