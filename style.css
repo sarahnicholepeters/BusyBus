@@ -18,6 +18,8 @@
   justify-content: space-between;
   padding: 0 5px;
   position: fixed;
+  background-color: #f9f7f9;
+  z-index: 100;
 }
 
 .status-left {
